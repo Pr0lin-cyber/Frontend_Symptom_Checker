@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import homescreen from "@/Pages/homescreen";
-
+import erklärung from "@/Pages/erklärung";
+import chatbot from "@/Pages/chatbot";
 
 Vue.use(VueRouter) //Important to use the Vue-Router
 
@@ -17,7 +18,7 @@ const routes = [
     },
     {
         path: '/Erklärung',
-        component: erklärung,
+        component : erklärung,
     },
 ]
 
