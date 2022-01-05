@@ -13,23 +13,23 @@
       <v-icon>mdi-home</v-icon>
     </v-btn>
 
-    <!-- Erklärungsbutton -->
-    <v-btn to="/Erklärung" value="erklärung">
-      <span>Scan</span>
-      <v-icon>mdi-camera</v-icon>
-    </v-btn>
-
     <!-- Chatbot Button -->
     <v-btn to="/Chatbot" value="chatbot">
-      <span></span>
-      <v-icon>mdi-plus</v-icon>
+      <span>Chatbot</span>
+      <v-icon>mdi-robot</v-icon>
+    </v-btn>
+
+    <!-- Erklärungsbutton -->
+    <v-btn to="/Erklärung" value="erklärung">
+      <span>Discribtion</span>
+      <v-icon>mdi-newspaper</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </template>
 
 <script>
 export default {
-  name: "Tab_bar",
+  name: "Navibar",
   data: () => ({ value: 1 }),                  //defines value for switching the active button
 }
 </script>
