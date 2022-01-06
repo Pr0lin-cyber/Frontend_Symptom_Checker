@@ -2,22 +2,17 @@
   <div>
    <div class = "top">
      <div>
-       <img
-           class = "logo"
-           src=""
-           width="70"
-           height="70"
-           alt="logo"
-       />
+       <Navibar></Navibar>
      </div>
-     <div class="header">Symptom Checker</div>
    </div>
  </div>
 </template>
 
 <script>
+import Navibar from "@/components/Navibar";
 export default {
-name: "erklärung"
+name: "erklärung",
+  components: {Navibar}
 }
 </script>
 
