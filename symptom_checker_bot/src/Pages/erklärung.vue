@@ -1,6 +1,8 @@
 <template>
   <div>
    <div class = "top">
+     <topbar></topbar>
+
      <div>
        <Navibar></Navibar>
      </div>
@@ -10,9 +12,10 @@
 
 <script>
 import Navibar from "@/components/Navibar";
+import Topbar from "@/components/topbar";
 export default {
 name: "erklärung",
-  components: {Navibar}
+  components: {Topbar, Navibar}
 }
 </script>
 

@@ -1,14 +1,18 @@
 <template>
   <div>
+    <topbar></topbar>
+  </div>
+  <div>
     <Navibar></Navibar>
   </div>
 </template>
 
 <script>
 import Navibar from "@/components/Navibar";
+import Topbar from "@/components/topbar";
 export default {
 name: "chatbot",
-  components: {Navibar}
+  components: {Topbar, Navibar}
 }
 </script>
 
