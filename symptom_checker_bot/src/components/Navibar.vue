@@ -21,7 +21,7 @@
 
     <!-- Erklärungsbutton -->
     <v-btn to="/Erklärung" value="erklärung">
-      <span>Discribtion</span>
+      <span>Discription</span>
       <v-icon>mdi-newspaper</v-icon>
     </v-btn>
   </v-bottom-navigation>
