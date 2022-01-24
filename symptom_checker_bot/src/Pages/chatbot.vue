@@ -112,7 +112,7 @@ export default {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  align-items: space-between;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .chat-inputs {

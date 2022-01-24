@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import homescreen from "@/Pages/homescreen";
 import erklaerung from "@/Pages/erklärung";
 import chatbot from "@/Pages/chatbot";
+import Connect from "@/components/Connect";
 
 Vue.use(VueRouter) //Important to use the Vue-Router
 
@@ -20,6 +21,10 @@ const routes = [
         path: '/Erklärung',
         component : erklaerung,
     },
+    {
+        path: '/Connect',
+        component: Connect,
+    }
 ]
 
 //initalizing the const Router as new Router
